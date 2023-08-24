@@ -1,0 +1,21 @@
+{
+  "name": "eye-care",
+  "displayName": "Natura",
+  "description": "Smokey theme, code with your eye-health in mind",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Natura-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Natura-theme-color-theme.json"
+      }
+    ]
+  }
+}
