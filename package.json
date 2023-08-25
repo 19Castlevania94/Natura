@@ -4,6 +4,7 @@
   "description": "Smokey theme, code with your eye-health in mind",
   "publisher": "Lopa",
   "version": "0.0.1",
+  "Private": true,
   "engines": {
     "vscode": "^1.81.0"
   },
@@ -11,6 +12,10 @@
   "categories": [
     "Themes"
   ],
+  "repository": {
+  "type": "git",
+  "url" : "https://github.com/19Castlevania94/Natura"
+},
   "contributes": {
     "themes": [
       {
