@@ -112,7 +112,6 @@
 			"editorSuggestWidget.focusHighlightForeground": "#CFBD91",
 			"editorSuggestWidget.highlightForeground": "#A083A9",
 			"editorSuggestWidget.selectedBackground": "#24352f49",
-	//"editorSuggestWidget.selectedForeground": "#FF6464B4",
 			"editorSuggestWidget.selectedIconForeground": "#FF6464B4",
 			"editorSuggestWidget.border": "#404A48E6",
 			"editorHoverWidget.foreground": "#CFBD91",
