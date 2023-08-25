@@ -25,7 +25,7 @@
 			"panelSection.border": "#404A48E6",
 			"panelSectionHeader.background": "#1D2121",
 			"panelSectionHeader.foreground": "#CFBD91",
-			//"panelSectionHeader.border": "#ff0000",
+
 	
 			"statusBar.background": "#1D2121",
 			"statusBar.foreground": "#CFBD91",
@@ -38,7 +38,6 @@
 			"list.activeSelectionForeground": "#CFBD91",
 			"list.focusHighlightForeground": "#CFBD91",
 	
-			//"progressBar.background": "#ff0000",
 	
 			"scrollbar.shadow": "#404A48E6",
 	
@@ -54,9 +53,7 @@
 			"input.background": "#2c34338b",
 			"input.border": "#404A48E6",
 			"input.foreground": "#505F5C",
-			//"inputOption.activeBackground": "#ff0000",
-			//"inputOption.activeBorder": "#ff0000",
-			//"inputOption.activeForeground": "#ff0000",
+			
 	
 			"textBlockQuote.background": "#161C1A",
 			"textBlockQuote.border": "#d1b8788b",
@@ -64,14 +61,14 @@
 			"textLink.foreground": "#A083A9",
 			"textLink.activeForeground": "#a083a9c2",
 			"textPreformat.foreground": "#d3fff8",
-			//"textSeparator.foreground": "#ff0000",
 	
+			
 			"toolbar.hoverBackground": "#2c3433",
 	
+			
 			"focusBorder": "#cfbd91d0",
 			"foreground": "#7f9490",
 			
-			//"disabledForeground": "#ff0000",
 			
 			"widget.border": "#CFBD91",
 			"widget.shadow": "#404A48E6",
@@ -82,7 +79,6 @@
 			"errorForeground": "#FF6464B4",
 			"icon.foreground": "#A083A9",
 			
-			//"sash.hoverBorder": "#ff0000",
 			
 			"window.activeBorder": "#404A48E6",
 			"window.inactiveBorder": "#CFBD91",
