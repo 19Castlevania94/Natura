@@ -4,7 +4,6 @@
   "description": "Smokey theme, code with your eye-health in mind",
   "publisher": "Lopa",
   "version": "0.0.1",
-  "Private": true,
   "engines": {
     "vscode": "^1.81.0"
   },
