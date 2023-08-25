@@ -2,6 +2,10 @@
 	"name": "Natura-theme",
 		"colors": {
 
+			"banner.background": "#1D2121",
+			"banner.foreground": "#7f9490",		
+			"banner.iconForeground": "#CFBD91",
+
 			"quickInput.foreground": "#CFBD91",
 			"pickerGroup.foreground": "#a083a9c2",
 			"pickerGroup.border": "#404A48E6",
@@ -29,6 +33,27 @@
 	
 			"statusBar.background": "#1D2121",
 			"statusBar.foreground": "#CFBD91",
+			"statusBar.border": "#404A48E6",
+			"statusBar.noFolderBackground": "#1D2121",
+			"statusBar.noFolderForeground": "#CFBD91",
+			"statusBar.noFolderBorder": "#404A48E6",
+			"statusBarItem.activeBackground": "#1D2121",
+			"statusBarItem.hoverBackground": "#1D2121",
+			"statusBarItem.prominentForeground": "#CFBD91",
+			"statusBarItem.prominentBackground": "#1D2121",
+			"statusBarItem.prominentHoverBackground": "#1D2121",
+			"statusBarItem.remoteBackground": "#1D2121",
+			"statusBarItem.remoteForeground": "#CFBD91",
+			"statusBarItem.errorBackground": "#1D2121",
+			"statusBarItem.errorForeground": "#FF6464B4",
+			"statusBarItem.warningBackground": "#1D2121",
+			"statusBarItem.warningForeground": "#FF6464B4",
+			"statusBarItem.compactHoverBackground": "#1D2121",
+			"statusBarItem.focusBorder": "#1D2121",
+			"statusBar.focusBorder": "#404A48E6",
+			"statusBar.offlineBackground": "#1D2121",
+			"statusBar.offlineForeground": "#CFBD91",
+
 			
 			"titleBar.activeBackground": "#1D2121",
 			"titleBar.activeForeground": "#7F9490",
