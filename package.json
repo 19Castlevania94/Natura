@@ -2,10 +2,12 @@
   "name": "eye-care",
   "displayName": "Natura",
   "description": "Smokey theme, code with your eye-health in mind",
+  "publisher": "Lopa",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.81.0"
   },
+  "icon": "image-from-rawpixel-id-2229040-jpeg.jpg",
   "categories": [
     "Themes"
   ],
