@@ -463,7 +463,7 @@
 				],
 				"settings": {
 					"fontStyle": "",
-					"foreground": "#ff6464b4"
+					"foreground": "#F07178"
 				}
 			},
 			{
@@ -489,7 +489,7 @@
 				],
 				"settings": {
 					"fontStyle": "",
-					"foreground": "#CFBD91"
+					"foreground": "#83A99F"
 				}
 			},
 			{
@@ -519,7 +519,7 @@
 				],
 				"settings": {
 					"fontStyle": "",
-					"foreground": "#cfbd91"
+					"foreground": "#CFBD91"
 				}
 			},
 			{
@@ -716,13 +716,13 @@
 				],
 				"settings": {
 					"fontStyle": "",
-					"foreground": "#FFCB6B"
+					"foreground": "#CFBD91"
 				}
 			},
 			{
 				"name": "HTML Attributes",
 				"scope": [
-					"entity.other.attribute-name.html",
+					"entity.other.attribute-name",
 					
 				],
 				"settings": {
@@ -740,7 +740,49 @@
 				],
 				"settings": {
 					"fontStyle": "",
-					"foreground": "#FF6464B4"
+					"foreground": "#F07178"
+				}
+			},
+			{
+				"name": "Color Customization text (PHP)",
+				"scope": [
+					"text.html.php"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#5b6a67e6"
+				}
+			},
+			{
+				"name": "Color Customization function && modifier (PHP)",
+				"scope": [
+					"storage.type.function.php",
+					"storage.type.class.php",
+					"storage.modifier.php"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#F07178"
+				}
+			},
+			{
+				"name": "Color Customization function (PHP)",
+				"scope": [
+					"variable.other.php"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#A083A9"
+				}
+			},
+			{
+				"name": "Color Customization operation (PHP)",
+				"scope": [
+					"keyword.operator.logical.js"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#CFBD91"
 				}
 			},
 			{
@@ -750,7 +792,7 @@
 				],
 				"settings": {
 					"fontStyle": "",
-					"foreground": "#e8efee"
+					"foreground": "#5B6A67E6"
 				}
 			},
 			{
@@ -766,10 +808,30 @@
 			{
 				"name": "CSS Classes",
 				"scope": [
-					"entity.other.attribute-name.class"
+					"keyword.operator.combinator.css"
 				],
 				"settings": {
 					"foreground": "#CFBD91"
+				}
+			},
+			{
+				"name": "CSS Classes",
+				"scope": [
+					"entity.other.attribute-name.pseudo-class.css",
+					"entity.name.tag.custom.css"
+				],
+				"settings": {
+					"foreground": "#83A99F"
+				}
+			},
+			{
+				"name": "CSS Classes",
+				"scope": [
+					"meta.selector.css", 
+					"keyword.operator.combinator.css"
+				],
+				"settings": {
+					"foreground": "#A083A9"
 				}
 			},
 			{
@@ -780,6 +842,66 @@
 				"settings": {
 					"fontStyle": "",
 					"foreground": "#82AAFF"
+				}
+			},
+			{
+				"name": "CSS URL",
+				"scope": [
+					"variable.parameter.url.css"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#AF7575D2"
+				}
+			},
+			{
+				"name": "Color Colorization source (Python)",
+				"scope": [
+					"source.python"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#83A99F"
+				}
+			},
+			{
+				"name": "Color Colorization source (Python)",
+				"scope": [
+					"meta.function-call.arguments.python"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#E8EFEE"
+				}
+			},
+			{
+				"name": "Color Colorization source (Python)",
+				"scope": [
+					"meta.function-call.generic.python"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#CFBD91"
+				}
+			},
+			{
+				"name": "Color Colorization JS",
+				"scope": [
+					"entity.other.attribute-name.js"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#83A99F"
+				}
+			},
+			{
+				"name": "Color Colorization JS",
+				"scope": [
+					"constant.other.placeholder.c"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#CFBD91"
 				}
 			},
 			{
@@ -941,13 +1063,119 @@
 				}
 			},
 			{
+				"name": "Color Customzation modifier && import (JAVA)",
+				"scope": [
+					"storage.modifier.java",
+					"keyword.other.import.java",
+					"invalid.illegal"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#f07178"
+				}
+			},
+			{
+				"name": "Color Customzation brackets && import (JAVA)",
+				"scope": [
+					"punctuation.section.class.end.bracket.curl",
+					"storage.modifier.import.java"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#CFBD91"
+				}
+			},
+			{
+				"name": "Color Customization body (JAVA)",
+				"scope": [
+					"storage.modifier.extends.java",
+					"source.java",
+					"meta.method.body.java"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#E8EFEE"
+				}
+			},
+			{
+				"name": "Color Customization source (JAVA)",
+				"scope": [
+					"storage.type.generic.java"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#83A99F"
+				}
+			},
+			{
+				"name": "Color Customization source (C)",
+				"scope": [
+					"source.c"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#CFBD91"
+				}
+			},
+			{
+				"name": "Color Customization meta-block (C++)",
+				"scope": [
+					"meta.body.class.cpp",
+					"keyword.other.using.directive.cpp"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#CFBD91"
+				}
+			},
+			{
+				"name": "Color Customization meta-block (C++)",
+				"scope": [
+					"storage.type.namespace.directive.cpp"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#A083A9"
+				}
+			},
+			{
+				"name": "Color Customization meta-block (C++)",
+				"scope": [
+					"entity.name.namespace.cpp"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#83A99F"
+				}
+			},
+			{
+				"name": "Color Customization class (C++)",
+				"scope": [
+					"storage.type.class.cpp"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#F07178"
+				}
+			},
+			{
+				"name": "Color Customization class (C++)",
+				"scope": [
+					"source.cpp"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#E3F0EE"
+				}
+			},
+			{
 				"name": "Markdown - Plain",
 				"scope": [
 					"text.html.markdown",
 					"punctuation.definition.list_item.markdown"
 				],
 				"settings": {
-					"foreground": "#EEFFFF"
+					"foreground": "#E8EFEE"
 				}
 			},
 			{
@@ -1101,8 +1329,7 @@
 				"name": "Markdown - Fenced Bode Block Variable",
 				"scope": [
 					"markup.raw.block.fenced.markdown",
-					"variable.language.fenced.markdown",
-					"punctuation.section.class.end"
+					"variable.language.fenced.markdown"
 				],
 				"settings": {
 					"foreground": "#EEFFFF"
@@ -1125,6 +1352,157 @@
 				"settings": {
 					"fontStyle": "bold",
 					"foreground": "#65737E"
+				}
+			},
+			{
+				"name": "Color customization [C]",
+				"scope": [
+					"storage.modifier.c"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#FF6464B4"
+				}
+			},
+			{
+				"name": "Color customization [C]",
+				"scope": [
+					"meta.block.c"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#83A99F"
+				}
+			},
+			{
+				"name": "Color customization [C]",
+				"scope": [
+					"keyword.control.switch",
+
+
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#83A99F"
+				}
+
+			},
+			{
+				"name": "Color customization [C]",
+				"scope": [
+					"keyword.control.case",
+					"eyword.control.default",
+
+
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#CFBD91"
+				}
+
+			},
+			{
+				"name": "Color customization [C]",
+				"scope": [
+					"storage.modifier.array.bracket.square.c"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#CFBD91",
+				}
+			},
+			{
+				"name": "Color customization [C]",
+				"scope": [
+					"constant.character.escape"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#CFBD91"
+				}
+			},
+			{
+				"name": "Color customization [C]",
+				"scope": [
+					"meta.conditional.switch"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#CFBD91"
+				}
+			},
+			{
+				"name": "Color customization [C]",
+				"scope": [
+					"meta.block.switch"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#CFBD91"
+				}
+			},
+			{
+				"name": "color customization variable (R)",
+				"scope": [
+					"variable.parameter.r"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#CFBD91"
+				}
+			},
+			{
+				"name": "Color customization other (R)",
+				"scope": [
+					"variable.other.r"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#A083A9"
+				}
+			},
+			{
+				"name": "Color Customization create (SQL)",
+				"scope": [
+					"keyword.other.create.sql"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#FF6464B4"
+				}
+			},
+			{
+				"name": "Color Customization source (SQL)",
+				"scope": [
+					"source.sql"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#83A99F"
+				}
+			},
+			{
+				"name": "Color Customization other (SQL)",
+				"scope": [
+					"keyword.other.sql",
+					"keyword.other.DDL.create.II.sql",
+					"keyword.other.table.sql",
+					"keyword.other.DML.sql",
+					"keyword.other.DML.II.sql"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#CFBD91"
+				}
+			},
+			{
+				"name": "Color Customization other (SQL)",
+				"scope": [
+					"keyword.other.alias.sql"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#A083A9"
 				}
 			},
 			{
