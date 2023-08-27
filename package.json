@@ -3,7 +3,7 @@
   "displayName": "Natura",
   "description": "Smokey theme, code with your eye-health in mind",
   "publisher": "Lopa",
-  "version": "0.0.3",
+  "version": "0.1.4",
   "engines": {
     "vscode": "^1.81.0"
   },

@@ -583,7 +583,6 @@
 			{
 				"name": "String, Symbols, Inherited Class, Markup Heading",
 				"scope": [
-					"string.quoted.double.html",
 					"constant.other.symbol",
 					"constant.other.key",
 					"entity.other.inherited-class",
@@ -695,7 +694,7 @@
 				],
 				"settings": {
 					"fontStyle": "",
-					"foreground": "#83A99F"
+					"foreground": "#CFBD91"
 				}
 			},
 			{
@@ -731,10 +730,21 @@
 				}
 			},
 			{
+				"name": "Coor Customization string (HTML)",
+				"scope": [
+					"string.quoted.double.html"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#AF7575D2"
+				}
+			},
+			{
 				"name": "JS class colorization",
 				"scope": [
 					"storage.type.class.js",
-					"storage.type.function.js"
+					"storage.type.function.js",
+					"storage.type.property.js"
 	
 					
 				],
@@ -1131,7 +1141,8 @@
 			{
 				"name": "Color Customization meta-block (C++)",
 				"scope": [
-					"storage.type.namespace.directive.cpp"
+					"storage.type.namespace.directive.cpp",
+					"string.quoted.other.lt-gt.include.c"
 				],
 				"settings": {
 					"fontStyle": "",
@@ -1169,9 +1180,48 @@
 				}
 			},
 			{
+				"name": "Color Customization meta (Markdown)",
+				"scope": [
+					"meta.paragraph.markdown"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#CFBD91"
+				}
+			},
+			{
+				"name": "Color Customization meta (Markdown)",
+				"scope": [
+					"text.html.markdown"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#83A99F"
+				}
+			},
+			{
+				"name": "Color Customization meta (Markdown)",
+				"scope": [
+					"markup.raw.block.markdown"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#5B6A67E6"
+				}
+			},
+			{
+				"name": "Color Customization meta 2 (Markdown)",
+				"scope": [
+					"markup.list.unnumbered.markdown"
+				],
+				"settings": {
+					"fontStyle": "",
+					"foreground": "#E8EFEE"
+				}
+			},
+			{
 				"name": "Markdown - Plain",
 				"scope": [
-					"text.html.markdown",
 					"punctuation.definition.list_item.markdown"
 				],
 				"settings": {
@@ -1250,7 +1300,7 @@
 				],
 				"settings": {
 					"fontStyle": "underline",
-					"foreground": "#F78C6C"
+					"foreground": "#AF7575D2"
 				}
 			},
 			{
@@ -1274,10 +1324,11 @@
 			{
 				"name": "Markdown - Link",
 				"scope": [
-					"string.other.link.title.markdown"
+					"string.other.link.title.markdown",
+					"string.other.link.description.markdown"
 				],
 				"settings": {
-					"foreground": "#82AAFF"
+					"foreground": "#82CBE8C6"
 				}
 			},
 			{
@@ -1286,7 +1337,7 @@
 					"string.other.link.description.title.markdown"
 				],
 				"settings": {
-					"foreground": "#C792EA"
+					"foreground": "#83A99F"
 				}
 			},
 			{
@@ -1295,7 +1346,7 @@
 					"constant.other.reference.link.markdown"
 				],
 				"settings": {
-					"foreground": "#FFCB6B"
+					"foreground": "#82CBE8C6"
 				}
 			},
 			{
@@ -1304,7 +1355,7 @@
 					"markup.raw.block"
 				],
 				"settings": {
-					"foreground": "#C792EA"
+					"foreground": "#A083A9"
 				}
 			},
 			{
@@ -1351,7 +1402,7 @@
 				],
 				"settings": {
 					"fontStyle": "bold",
-					"foreground": "#65737E"
+					"foreground": "#5B6A67E6"
 				}
 			},
 			{
